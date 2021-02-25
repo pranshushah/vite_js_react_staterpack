@@ -45,7 +45,7 @@
       "<rootDir>/src"
     ],
     "setupFilesAfterEnv": [
-      "<rootDir>/jest/mocks/jest.setup.js"
+      "<rootDir>/jest/jest.setup.js"
     ],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
