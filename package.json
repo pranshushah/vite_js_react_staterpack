@@ -75,8 +75,12 @@
     "resetMocks": true
   },
   "babel": {
-    "presets": [
-      "react-app"
-    ]
+    "env": {
+      "test": {
+        "presets": [
+          "react-app"
+        ]
+      }
+    }
   }
 }
